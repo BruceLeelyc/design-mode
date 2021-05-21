@@ -14,6 +14,12 @@ java设计模式:
     6、合成复用原则（Composite Reuse Principle）
         合成复用原则是指：尽量使用合成/聚合的方式，而不是使用继承。
 
-
+二十三种设计模式个人练习:
+    主要看各个模式的*Main方法的运行事例.
+    1.工厂模式:com.test.example.factory.FactoryMain
+    2.单例模式:com.design.example.singleton.Singleton
+    3.抽象工厂:com.design.example.abstractfactory.AbstractFactoryMain
+    4.建造者模式:com.design.example.builder.BuilderMain
+    5.原型模式:
 
 
