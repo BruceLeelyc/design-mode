@@ -59,7 +59,9 @@ java设计模式:<br/>
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、不能保证请求一定被接收。 
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、系统性能将受到一定影响，而且在进行代码调试时不太方便，可能会造成循环调用。 
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、可能不容易观察运行时的特征，有碍于除错。
-    
+    <br/>9.策略模式:com.design.example.strategy.StrategyMain
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、算法可以自由切换。 2、避免使用多重条件判断。 3、扩展性良好。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：1、策略类会增多。 2、所有策略类都需要对外暴露。
     
     
     
