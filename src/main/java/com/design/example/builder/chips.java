@@ -6,7 +6,7 @@ package com.design.example.builder;
  * @Author: lixl
  * @Date: 2021/5/21 16:36
  */
-public class chips extends Burger {
+public class Chips extends Burger {
     @Override
     public String name() {
         return "chips";

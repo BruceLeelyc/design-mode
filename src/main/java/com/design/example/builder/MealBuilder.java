@@ -26,7 +26,7 @@ public class MealBuilder {
         Meal meal = new Meal();
         meal.addItem(new ChickenBurger());
         meal.addItem(new Pepsi());
-        meal.addItem(new chips());
+        meal.addItem(new Chips());
         return meal;
     }
 }

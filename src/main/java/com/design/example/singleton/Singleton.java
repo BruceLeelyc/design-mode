@@ -51,15 +51,4 @@ public class Singleton {
         return singleton;
     }
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            new Thread(new Runnable() {
-                public void run() {
-                    Singleton instance = Singleton.instance();
-                    System.out.println(singleton);
-                }
-            }).run();
-        }
-    }
-
 }
