@@ -18,10 +18,17 @@ java设计模式:<br/>
 二十三种设计模式个人练习:<br/>
     主要看各个模式的*Main方法的运行事例.<br/>
     1.工厂模式:com.test.example.factory.FactoryMain <br/>
+        <br/>优点： 
+        <br/>1、一个调用者想创建一个对象，只要知道其名称就可以了。 
+        <br/>2、扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以。 
+        <br/>3、屏蔽产品的具体实现，调用者只关心产品的接口。
+        <br/>缺点：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。
     2.单例模式:com.design.example.singleton.Singleton <br/>
     3.抽象工厂:com.design.example.abstractfactory.AbstractFactoryMain <br/>
     4.建造者模式:com.design.example.builder.BuilderMain <br/>
     5.原型模式: <br/>
     6.装饰模式:com.design.example.decorator.DecoratorMain <br/>
+        <br/>优点：装饰类和被装饰类可以独立发展，不会相互耦合，装饰模式是继承的一个替代模式，装饰模式可以动态扩展一个实现类的功能。
+        <br/>缺点：多层装饰比较复杂。
 
 
