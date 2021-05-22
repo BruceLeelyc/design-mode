@@ -38,5 +38,9 @@ java设计模式:<br/>
     <br/>6.装饰模式:com.design.example.decorator.DecoratorMain 
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：装饰类和被装饰类可以独立发展，不会相互耦合，装饰模式是继承的一个替代模式，装饰模式可以动态扩展一个实现类的功能。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：多层装饰比较复杂。
-
+    <br/>7.适配器模式:com.design.example.adapter.AdapterMain
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、可以让任何两个没有关联的类一起运行。 2、提高了类的复用。 3、增加了类的透明度。 4、灵活性好。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：1、过多地使用适配器，会让系统非常零乱，不易整体进行把握。
+        比如，明明看到调用的是 A 接口，其实内部被适配成了 B 接口的实现，一个系统如果太多出现这种情况，无异于一场灾难。因此如果不是很有必要，可以不使用适配器，而是直接对系统进行重构。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.由于 JAVA 至多继承一个类，所以至多只能适配一个适配者类，而且目标类必须是抽象类。
 
