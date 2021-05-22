@@ -47,9 +47,18 @@ java设计模式:<br/>
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、高层模块调用简单。 2、节点自由增加。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：在使用组合模式时，其叶子和树枝的声明都是实现类，而不是接口，违反了依赖倒置原则。
     <br/>9.外观模式:com.design.example.facade.FacadeMain
-            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、减少系统相互依赖。 2、提高灵活性。 3、提高了安全性。
-            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：不符合开闭原则，如果要改东西很麻烦，继承重写都不合适。
-        
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、减少系统相互依赖。 2、提高灵活性。 3、提高了安全性。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：不符合开闭原则，如果要改东西很麻烦，继承重写都不合适。
+    <br/>10.责任链模式:com.design.example.chain.ChainMain
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、降低耦合度。它将请求的发送者和接收者解耦。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、简化了对象。使得对象不需要知道链的结构。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、增强给对象指派职责的灵活性。通过改变链内的成员或者调动它们的次序，允许动态地新增或者删除责任。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4、增加新的请求处理类很方便。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、不能保证请求一定被接收。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、系统性能将受到一定影响，而且在进行代码调试时不太方便，可能会造成循环调用。 
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、可能不容易观察运行时的特征，有碍于除错。
     
     
     
