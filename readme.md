@@ -43,4 +43,38 @@ java设计模式:<br/>
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：1、过多地使用适配器，会让系统非常零乱，不易整体进行把握。
         比如，明明看到调用的是 A 接口，其实内部被适配成了 B 接口的实现，一个系统如果太多出现这种情况，无异于一场灾难。因此如果不是很有必要，可以不使用适配器，而是直接对系统进行重构。 
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.由于 JAVA 至多继承一个类，所以至多只能适配一个适配者类，而且目标类必须是抽象类。
-
+    <br/>8.组合模式:com.design.example.composite.CompositeMain
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、高层模块调用简单。 2、节点自由增加。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：在使用组合模式时，其叶子和树枝的声明都是实现类，而不是接口，违反了依赖倒置原则。
+    <br/>9.外观模式:com.design.example.facade.FacadeMain
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优点：1、减少系统相互依赖。 2、提高灵活性。 3、提高了安全性。
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点：不符合开闭原则，如果要改东西很麻烦，继承重写都不合适。
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
